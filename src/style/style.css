@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+header {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: #C4C4C4;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav ul li:hover {
+    color: rgba(5, 139, 140, 1);
+    cursor: pointer;
+}
+
+.header_btn {
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.header_btn:hover {
+    color: #fff;
+}
+
+/* footer */
+footer {
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.coloumn_one ul li {
+    list-style: none;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 12px 0px;
+
+}
+
+.Into_Para {
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 460px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+.coloumn_two ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.coloumn_two ul li {
+    list-style: none;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 20px;
+}
+
+.coloumn_two nav ul {
+    display: list-item;
+    list-style: none;
+}
+
+.coloumn_two nav ul li {
+
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 20px;
+}
+
+#Item_Home {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 150% */
+}
+
+.coloumn_three ul li {
+    list-style: none;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 12px 20px;
+}
+
+.news_letter {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.news_letter input {
+    width: 75%;
+    border-radius: 341px;
+    border: 2px solid #058B8C;
+    height: 48px;
+    padding-left: 15px;
+}
+
+.news_letter button {
+    width: 23%;
+    margin-left: 1rem;
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 166.667% */
+    border: none;
+}
+
+
+
+.coloumn_twoo ul li {
+    list-style: none;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 12px 40px;
+}
+
+
+
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+hr {
+    width: 1412px;
+    height: 2px;
+}
+
+.Copyright {
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+    text-align: center;
+}
+
+/* Banner Section */
+.page_width {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.banner_section {
+    padding: 50px 0px;
+    background: url("../assets/images/home/banner/bg_banner.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.banner_inner_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.banner_inner_section .banner_img {
+    padding: 20px;
+}
+
+.banner_inner_section .banner_img img {
+    border-radius: 50%;
+}
+
+.banner_inner_section .banner_content {
+    margin-top: 130px;
+}
+
+.banner_inner_section .banner_content small {
+    border-radius: 30px;
+    background: #058B8C;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    padding: 5px 10px;
+}
+
+
+
+.banner_inner_section .banner_content .intro {
+    margin-top: 10px;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.banner_inner_section .banner_content h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px;
+}
+
+.banner_inner_section .banner_content h2 span {
+    color: #058B8C;
+}
+
+.banner_inner_section .banner_content .description {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.banner_button .btn_1 {
+    border-radius: 48px;
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.banner_button .btn_2 {
+    border-radius: 48px;
+    background: transparent;
+    /* box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset; */
+    border: 2px solid #1E1E1E;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+/*Banner Who are we */
+.Banner_Who_are_we {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+.Banner_Who_are_we .Who_are_we_content h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.Banner_Who_are_we .Who_are_we_content span {
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #058B8C;
+}
+
+.Banner_Who_are_we .Who_are_we_content .Our_Intro {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px 10px;
+    padding: 0px;
+
+    width: 692px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.Banner_Who_are_we .Who_are_we_img img {
+    border-radius: 50%;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.Company_Authority {
+    background-color: #058B8C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px 30px;
+    margin: 20px 20px;
+    width: 1550px;
+    height: 680px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.Company_Authority h2 {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.Company_Authority span {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.Company_Authority .Company_Intro {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    width: 692px;
+    height: 180px;
+    flex-shrink: 0;
+    margin: 20px 0px;
+}
+
+.Company_Authority .Company_Auth_Img img {
+    border-radius: 50%;
+}
+
+.Company_Authority .Company_Auth_Img img {
+    padding: 10px;
+    height: 80%;
+    width: 80%;
+}
+
+.Our_Clients {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.Our_Clients h2 {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.Our_Clients span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.Our_Clients .Clients_Para {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 1412px;
+}
+
+.Emergency_Note {
+    width: 1920px;
+    height: 300px;
+    flex-shrink: 0;
+    background: #058B8C;
+}
+
+.Emergency_Note .page_width {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.Emergency_Note p {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    padding: 30px 30px;
+    margin: 20px 0px;
+}
+
+.services {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.services .services-row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.services .services-row-one p {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+
+.services .services-row-two h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.services .services-row-two span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.services .services-row-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.services .services-row-three img {
+    width: 341px;
+    height: 421px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    opacity: 0.6;
+    background: #1E1E1E;
+}
+
+.global_title {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.global_title span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
