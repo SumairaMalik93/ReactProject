@@ -5,7 +5,7 @@
 .card_grid {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
 
@@ -85,4 +85,136 @@
 
 .service_card:hover .overlay button {
     display: block;
+}
+
+.Company_Authority .Company_Auth_Img {
+    text-align: center;
+}
+
+.Company_Authority .Company_Auth_Img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.ourClients {
+    padding: 50px 0 px;
+}
+
+.ourClients .ClientHeader {
+    text-align: center;
+}
+
+.ourClients .ClientHeader p {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0em;
+    /* 166.667% */
+
+}
+
+.clientCard_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.clientCard_grid .client_card {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+}
+
+.clientCard_grid .client_card .lower_content p {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+
+
+.clientCard_grid .client_card .upper_content {
+    display: flex;
+    align-items: center;
+}
+
+.clientCard_grid .client_card .upper_content .clientImg img {
+    width: 80px;
+    margin-right: 1rem;
+}
+
+
+
+.clientCard_grid .client_card .upper_content h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.clientCard_grid .client_card .upper_content .rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientCard_grid .client_card .upper_content .ImgContent {
+    width: 100%;
+}
+
+.Quick_Service {
+    background-color: #058B8C;
+    width: 100%;
+    padding: 50px;
+    margin: 20px;
+}
+
+.Quick_Service .quickContent {
+    align-items: center;
+    align-content: center;
+}
+
+.Quick_Service .quickContent h2 {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    padding: 30px;
+}
+
+.Quick_Service .quickContent .ContactNumber {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.Quick_Service .quickContent .ContactNumber p {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.26px;
+    padding: 0px 30px;
 }

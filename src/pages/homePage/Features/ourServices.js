@@ -11,6 +11,7 @@ const OurServices = () => {
                 <ServiceCard service_Img="https://images.pexels.com/photos/4108807/pexels-photo-4108807.jpeg" title="Duct Cleaning" />
                 <ServiceCard service_Img="https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg" title="Handyman" />
                 <ServiceCard service_Img="https://images.pexels.com/photos/7859953/pexels-photo-7859953.jpeg" title="Plumbing" />
+                <ServiceCard service_Img="https://images.pexels.com/photos/7286002/pexels-photo-7286002.jpeg" title="Electrician" />
             </div>
         </div >
     )

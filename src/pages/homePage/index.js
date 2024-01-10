@@ -4,6 +4,8 @@ import HeroSection from './Features/heroSection'
 import OurServices from './Features/ourServices'
 import WhoAreWe from './Features/whoAreWe'
 import CompanyAuthority from './Features/companyAuthority'
+import OurClients from './Features/ourClients'
+import QuickService from './Features/QuickService'
 
 const HomePage = () => {
   return (
@@ -12,6 +14,8 @@ const HomePage = () => {
       <OurServices />
       <WhoAreWe />
       <CompanyAuthority />
+      <OurClients />
+      <QuickService />
     </div>
   )
 }
